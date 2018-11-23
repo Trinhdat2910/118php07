@@ -1,0 +1,24 @@
+#Container{
+	width: 80%;
+	border: 2px solid red;
+	margin: o auto;
+
+}
+
+header{ 
+	height: 100px; 
+	background: yellow;
+	border: 5px dotted #000;
+	padding:  20px;
+}
+section{
+	height: 200px;
+	background: red;
+	border: 5px dashed gray;
+	padding:  20px;
+	margin: 30px;
+}
+footer{
+	height: 100px;
+	background: green;
+}
