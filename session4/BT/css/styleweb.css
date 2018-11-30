@@ -248,6 +248,28 @@ footer{
 	#connect{
 		width: 39.5%;
 	}
+	#menu ul ul {
+		display: none;
+		position: absolute;
+	}
+	#menu ul ul li{
+		float: none;
+		background-color: green;
+		width: 160px;
+		border: 1px solid white; 
+	}
+	#menu ul li:hover{
+		background: #D8F781;
+		transition : 1s ease-in-out;
+	}
+	#menu ul li:hover >ul{
+		display: block;
+	}
+	#menu >ul:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
 }
 @media screen and (max-width: 768px) {
 	.item{
@@ -274,6 +296,12 @@ footer{
 	#menu ul li a{
 		font-size: 13px;
 	}
+	#menu ul ul li{
+		float: none;
+		background-color: green;
+		width: 115px;
+		border: 1px solid white; 
+	}
 	
 }
 @media screen and (max-width: 425px) {
@@ -294,7 +322,7 @@ footer{
 		height: 70px;
 	}
 	#menu ul li{
-		width: 19.7%;
+		width: 19.6%;
 	}
 	#slider img{
 		height: 150px;
@@ -342,6 +370,12 @@ footer{
 		font-size: 12px;
 		width: 50px;
 		margin-right: 10px;
+	}
+	#menu ul ul li{
+		float: none;
+		background-color: green;
+		width: 60px;
+		border: 1px solid white; 
 	}
 }
 
