@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black;
+	height: 310px;
+}
+#login{
+	border: 1px solid black;
+	margin: 10px;
+	padding: 7px;
+	height: 160px;
+	padding-left: 15px;
+
+}
+#register{
+	border: 1px solid black;
+	margin: 10px;
+	padding: 7px;
+	padding-left: 15px;
+}
+.tittle{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+#main1{
+	float: left;
+	width: 49%;
+	height: 250px;
+	margin-right:  5px;
+}
+#main2{
+	float: left;
+	width: 49%;
+	height: 250px;
+	margin-left:   5px;
+}
+#sm1{
+	float: left;
+}
+#remember{
+	float: left;
+	margin-left: 10px;
+}
+#lost{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+#lost p{
+	text-decoration: underline;
+	color:  blue;
+}
+.pass, #sm{
+	margin-top: 10px;
+}
+.txtname{
+	width: 90%;
+	height: 25px;
+}
+#user input, .pass input, #phone input, #email input{
+	width: 95%;
+	height: 25px;
+}
+#firstname{
+	float: left;
+	width: 48%;
+	
+}
+#lastname{
+	float: right;
+	width: 48%;
+	
+}
+#name{
+	margin-top: 10px;
+	height:  25px;
+}
+#email{
+	margin-top: 10px;
+}
+#btdangky{
+	margin-top: 10px;
+}
+@media screen and (max-width: 768px){
+	#main1, #main2{
+		width: 48.6%;
+	}
+	#login p, #register p{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 425px){
+	#main1, #main2{
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	#login p, #register p{
+		font-size: 12px;
+	}
+	#main{
+		height: 550px; 
+	}
+}

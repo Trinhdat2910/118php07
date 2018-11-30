@@ -1,0 +1,9 @@
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 400px;
+}
+table, tr, td{
+	border: 1px solid green;
+	text-align: center;
+}

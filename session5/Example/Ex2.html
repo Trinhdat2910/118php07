@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" type="text/css" href="css/ex2.css">
+</head>
+<body>
+	<form>
+		<h1>ĐĂNG KÝ</h1>
+		<p>HỌ VÀ TÊN <input type="text" name="name"></p>
+		<p>Email <input type="email" name="email" placeholder="example@gmail.com"></p>
+		<p>Password <input type="password" name="password"></p>
+		<p>Ngày sinh<input type="date" name="date"></p>
+		<p>Giới tính
+			<legend>
+				<input type="radio" name="gender" checked="checked"> Nam <input type="radio" name="gender" > Nữ
+			</legend>
+		</p>
+		<p>Tỉnh/ Thành phố<select>
+			<option> Đà Nẵng</option>
+			<option> Quảng Nam</option>
+			<option> Huế</option>
+		</select></p>
+		<p>Giới thiệu bản thân <textarea cols="30" rows="3"></textarea></p>
+		<p>Avatar <input type="file" name="file"></p>
+		<p>Sở Thích 
+			<legend>
+				<input type="checkbox" name="topping1"> music
+				<input type="checkbox" name="topping2"> watch
+				<input type="checkbox" name="topping3"> sing
+			</legend>
+		</p>
+		 <input type="submit" name="dangky" value="ĐĂNG KÝ">
+		
+	</form>
+</body>
+</html>
