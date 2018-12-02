@@ -12,15 +12,18 @@
 	border: 1px solid black;
 	margin: 10px;
 	padding: 7px;
-	height: 160px;
+	height: 70%;
 	padding-left: 15px;
+	background-color: #f7f7f7;
 
 }
 #register{
 	border: 1px solid black;
 	margin: 10px;
 	padding: 7px;
+	height: 95%;
 	padding-left: 15px;
+	background-color: #f7f7f7;
 }
 .tittle{
 	font-size: 30px;
@@ -39,12 +42,25 @@
 	height: 250px;
 	margin-left:   5px;
 }
+#sm{
+	float: left;
+	width: 100%;
+}
 #sm1{
 	float: left;
 }
 #remember{
 	float: left;
 	margin-left: 10px;
+	width: 70%;
+	margin-top: 5px;
+}
+#remember p{
+	float: left;
+	line-height: 13px;
+}
+#checkbox{
+	float: left;
 }
 #lost{
 	float: left;
@@ -54,6 +70,10 @@
 #lost p{
 	text-decoration: underline;
 	color:  blue;
+}
+a{
+	color: red;
+	text-decoration: none;
 }
 .pass, #sm{
 	margin-top: 10px;
@@ -86,14 +106,35 @@
 #btdangky{
 	margin-top: 10px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
+	#login p, #register p{
+		font-size: 12px;
+	}
+	#remember p{
+		font-size: 8px;
+	}
 	#main1, #main2{
 		width: 48.6%;
+	}
+	#remember{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 768px){
+	#main1, #main2{
+		width: 48%;
 	}
 	#login p, #register p{
 		font-size: 12px;
 	}
+	.button{
+		font-size: 8px;
+	}
+	#remember p{
+		font-size: 8px;
+	}
 }
+
 @media screen and (max-width: 425px){
 	#main1, #main2{
 		width: 100%;
