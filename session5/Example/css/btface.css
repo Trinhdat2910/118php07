@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 100%;
+	height: 657px;
+}
+#header{
+	width: 100%;
+	height: 16%;
+}
+#main{
+	width: 100%;
+	height: 84%;
+}
+#left{
+	width: 60%;
+	height: 100%;
+	float: left;
+	background-color:linear-gradient(white, #D3D8E8);
+	background-image: linear-gradient(white, rgb(211, 216, 232));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+#right{
+	width: 40%;
+	height: 100%;
+	background-color: #e9ebee;
+	float: left;
+	background-color:linear-gradient(white, #D3D8E8);
+	background-image: linear-gradient(white, rgb(211, 216, 232));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+#logo{
+	width: 60%;
+	height: 100%;
+	background-color: #3b5998;
+	float: left;
+}
+#login{
+	width: 40%;
+	height: 100%;
+	background-color:  #3b5998;
+	float: left;
+}
+#logo img{
+	width: 250px;
+	margin-top: 10px;
+
+}
+#login1{
+	color: white;
+}
+#emaillogin, #pwlogin{
+	float: left;
+	margin-top: 20px;
+}
+#btnlogin{
+	float: left;
+	margin-top: 36px;
+}
+#pwlogin, #btnlogin{
+	margin-left: 10px;
+}
+#btnlogin input{
+	background-color:  #4267b2;
+	color: white;
+	font-weight: bold;
+	padding: 3px;
+	border-color: #29487d;
+	border-top-color: rgb(41, 72, 125);
+    border-right-color: rgb(41, 72, 125);
+    border-bottom-color: rgb(41, 72, 125);
+    border-left-color: rgb(41, 72, 125);
+}
+#mainleft{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#mainleft p{
+	color: #3b5998;
+	font-weight: bold;
+	font-size: 25px;
+}
+#mainleft img{
+	width: 80%;
+	margin-top: 20px;
+}
+#mainright{
+	margin-top: 50px;
+	margin-right: 20px;
+}
+#signup{
+	color: #3b5998;
+	border-bottom: 1px solid #3b5998;
+}
+#signup p{
+	font-size: 18px;
+}
+#signleft{
+	width: 30%;
+	float: left;
+}
+#signright{
+	width: 70%;
+	float: left;
+}
+#signleft p{
+	text-align: right;
+	height: 40px;
+	color: #3b5998;
+	line-height: 18px;
+}
+#mainsignup{
+	margin-top: 15px;
+	border-bottom: 1px solid #3b5998;
+	height: 350px;
+}
+.input{
+	width: 80%;
+	height: 23px;
+	margin-bottom: 12px;
+}
+#gender{
+	width: 30%;
+	margin-top: 5px;
+	height: 23px;
+	
+}
+#birth{
+	margin-top: 15px;
+}
+#day, #month, #year{
+	width: 70px;
+	height: 23px;
+}
+#signright a{
+	color: #3b5998;
+	text-decoration: none;
+}
+#signright a:hover{
+	text-decoration: underline;
+}
+#btnsignup{
+	color: white;
+	width: 120px;
+	height: 30px;
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#signup2{
+	width: 100%;
+	text-align: center;
+}
+#signup2 p{
+	color: #666;
+	font-weight:  bold;
+	line-height: 60px;
+}
+#signup2 a{
+	color: #3b5998;
+	text-decoration: none;
+}
+#signup2 a:hover{
+	text-decoration: underline;
+}
+@media screen and (max-width: 1024px){
+	#logo, #login{
+		width: 50%;
+	}
+	#left{
+		padding-right: 20px;
+		width: 58%;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	#logo img{
+		width: 200px;
+	}
+	#logo{
+		width: 40%;
+	}
+	#login{
+		width: 60%;
+	}
+	#txtemail, #pwlogin input{
+		width: 150px;
+	}
+	#emaillogin, #pwlogin{
+		margin-top: 20px;
+		width: 150px;
+	}
+	#left{
+		padding-right: 12px;
+	}
+	#signleft{
+		width: 40%;
+	}
+	#signright{
+		width: 60%;
+	}
+	#day, #month{
+	width: 30px;
+	height: 23px;
+	}
+	#signup2 p{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 425px) {
+	#logo img{
+		width: 100px;
+	}
+	#container{
+		height: 500px;
+	}
+	#txtemail, #pwlogin input{
+		width: 80px;
+	}
+	#emaillogin, #pwlogin{
+		font-size: 10px;
+		width: 30%;
+	}
+	#logo{
+		width: 40%;
+	}
+	#login{
+		width: 60%;
+	}
+	#btnlogin input{
+		width: 50px;
+		font-size: 10px;
+	}
+	#btnlogin{
+		margin-top: 30px;
+	}
+	#mainleft p{
+		font-size: 15px;
+	}
+	#left{
+		width:40%;
+	}
+	#right{
+		width: 56%
+	}
+	#signup p{
+		font-size: 12px;
+	}
+	#signup h2{
+		font-size: 15px;
+	}
+	#signleft p{
+		font-size: 10px;
+		height: 25px;
+	}
+	.input{
+		height: 14px;
+		margin-bottom: 6px;
+	}
+	#gender{
+		width: 40%;
+		margin-top: 5px;
+		height: 15px;
+		font-size: 10px;
+	}
+	#birth{
+		margin-top: 8px;
+	}
+	#day, #month{
+		width: 30px;
+		height: 15px;
+		font-size: 10px;
+	}
+	#year{
+		height: 15px;
+		font-size: 10px;
+	}
+	#signright a, #signup2 p{
+		font-size: 10px;
+	}
+	#mainsignup{
+		height: 250px;
+	}
+	#btnsignup{
+		height: 20px;
+		font-size: 12px;
+		width: 100px;
+	}
+}
