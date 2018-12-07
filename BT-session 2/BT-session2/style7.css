@@ -1,5 +1,5 @@
 #Container{
-	width: 1000px;
+	width: 80%;
 	height: 985px;
 	margin: auto;
 	border: 2px solid red;
@@ -75,13 +75,13 @@ header{
 	float: left;
 	border: 2px solid #fff;
 	height: 99%;
-	width: 30.05%;
+	width: 29.6%;
 	background-color: violet;
 }
 .twin{
 	float: left;
 	border: 2px solid #fff;
 	height: 99%;
-	width: 49.3%;
+	width: 49%;
 	background-color: orange;
 }

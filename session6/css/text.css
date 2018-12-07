@@ -1,0 +1,12 @@
+@font-face{
+	font-family: myFont1;
+	src: url('fonts/myfont.ttf');
+}
+@font-face{
+	font-family: myFont2;
+	src: url("fonts/AguafinaScript-Regular.ttf");
+}
+.p1{
+	font-size: 30px;
+	font-family: myFont2;
+}
