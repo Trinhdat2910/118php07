@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	margin: 0 auto;
+	width: 80%;
+	height: 600px;
+	border: 1px solid black;
+}
+.img img{
+	width: 200px;
+	height: 200px;
+}
+#item{
+	border:2px solid black;
+	height: 230px;
+}
+.img{
+	float: left;
+	margin: 30px;
+}
+#imgdefault{
+	border: 2px solid black;
+	height: 360px;
+	margin: 0 auto;
+	width: 500px;
+}
+#imgdefault img{
+	width:40%;
+	margin-left: 150px;
+
+}
+#imgdefault p{
+	text-align: center;
+}
+#roi{
+	display: none;
+}

@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#showname p, #showage p, #showimg p{
+	float: left;
+	width: 50%;
+}
+#show{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	display: none;
+}
+#hinh{
+	width: 100px;
+}

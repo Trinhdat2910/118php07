@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ex 2 - session 8	</title>
+	<link rel="stylesheet" type="text/css" href="ex2.css">
+</head>
+<body>
+	<div id="main">
+		<div id="item">
+			<div class ="img">
+				<img src="img/dct.jpg" onclick="showImg('dct')" alt="dct" id="dct">
+			</div>
+			<div class ="img">
+				<img src="img/email.png" onclick="showImg('email')" alt="email" id="email">
+			</div>
+			<div class ="img">
+				<img src="img/Insta.png" onclick="showImg('insta')" alt="insta" id="insta">
+			</div>
+			<div class ="img">
+				<img src="img/FB.png" onclick="showImg('fb')" alt="fb" id="fb">
+			</div>
+		</div>
+		
+		<div id="imgdefault">
+			<img src="img/default.png" id="changeimg" alt="default">
+			<p id="name"></p>
+			<form id="question">
+				<p>
+					ban da ghi ban chua? <br>
+					<input type="radio" name="score" id="yes_score" value="yes" onclick="xem()"> roi
+					<input type="radio" name="score" id="no_score" value="no" onclick="xem()"> chua
+				</p>
+				<p id="roi"> 
+					<input type="text" name="txtscore">
+					<input type="button" name="submitscore" value="OK">
+				</p>
+				
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="ex2.js"></script>
+</body>
+</html>

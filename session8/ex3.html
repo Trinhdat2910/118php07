@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ex 3 - session 8	</title>
+	<link rel="stylesheet" type="text/css" href="ex3.css">
+</head>
+<body>
+	<form>
+		<p>Tên <input type="text" name="name" id="name"></p>
+		<p>Năm Sinh
+			<select id="age">
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+			</select>
+		</p>
+		<p>Giới tính
+			<input type="radio" name="gender" id="male"> Nam
+			<input type="radio" name="gender" id="female"> Nữ
+		</p>
+		<input type="button" name="submit" value="OK" onclick="show()">
+	</form>
+	<div id="show">
+		<div id="showname">
+			<p>Họ Tên: </p>
+			<p id="hoten"> </p>
+		</div>
+		<div id="showage">
+			<p>Năm sinh</p>
+			<p id="tuoi"></p>
+		</div>
+		<div id="showimg">
+			<p>Avatar</p>
+			<p><img src="#" id="hinh"></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="ex3.js"></script>
+</body>
+</html>

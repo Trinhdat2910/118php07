@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex4 - session 8</title>
+	<link rel="stylesheet" type="text/css" href="ex4.css">
+</head>
+<body>
+	<form id="calculator" name="calculator">
+		<input name="display" id="display" placeholder="0" style="width: 453px;	height: 70px;	border: 1px solid black;	background-color: #FAFAFA;	font-size: 35px; margin-left: 10px;">
+		<div class ="row">
+			<div class ="number" > <input type="button" name="number"  value="7" onclick="document.calculator.display.value +='7'" > </div>
+			<div class ="number"> <input type="button" name="number"  value="8" onclick="document.calculator.display.value +='8'"> </div>
+			<div class ="number"> <input type="button" name="number"  value="9" onclick="document.calculator.display.value +='9'"> </div>
+			<div class= "calculation"> <input type="button" name="pheptinh"  value="/" onclick="chia()"> </div>
+		</div>
+		<div class="row">
+			<div class ="number" > <input type="button" name="number"  value="4" onclick="document.calculator.display.value +='4'"> </div>
+			<div class ="number"> <input type="button" name="number"  value="5" onclick="document.calculator.display.value +='5'"> </div>
+			<div class ="number"> <input type="button" name="number"  value="6" onclick="document.calculator.display.value +='6'"> </div>
+			<div class= "calculation"> <input type="button" name="pheptinh"  value="*" onclick="nhan()"> </div>
+		</div>
+		<div class="row">
+			<div class ="number"> <input type="button" name="number"  value="1" onclick="document.calculator.display.value +='1'"> </div>
+			<div class ="number"> <input type="button" name="number"  value="2" onclick="document.calculator.display.value +='2'"> </div>
+			<div class ="number"> <input type="button" name="number"  value="3" onclick="document.calculator.display.value +='3'"> </div>
+			<div class= "calculation"> <input type="button" name="pheptinh"  value="-" onclick="tru()"> </div>
+		</div>
+		<div class="row">
+			<div class ="number"> <input type="button" name="number"  value="0" onclick="document.calculator.display.value +='0'"> </div>
+			<div class ="number"> <input type="button" name="number"  value="."> </div>
+			<div id ="btncal"><input type="button" name="tinh"  value="=" onclick="document.calculator.display.value = eval(document.calculator.display.value)"> </div>
+			<div class= "calculation"> <input type="button" name="pheptinh"  value="+" onclick="cong()"> </div>
+		</div>
+		
+	</form>
+<script type="text/javascript" src="ex4.js"></script>
+</body>
+</html>
